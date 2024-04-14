@@ -2,6 +2,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* Menu Section */
+
+.menu {
+  background-color: black;
+}
+
 /* Hero Section */
 
 #Hero-Section {
