@@ -48,8 +48,15 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-
+.card{
+  transition: 0.5s;
+}
+.card:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+}
 .boton-cartas{
   color: black;
   border: 1px solid black;
@@ -67,6 +74,18 @@ body {
   font-weight: 700;
   color: #373a3c;
 }
+.boton-form{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-form:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
 
 @media (max-width: 768px) {
   #Contacto form label {
