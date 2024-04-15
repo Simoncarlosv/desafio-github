@@ -16,6 +16,23 @@ body {
   background-size: cover;
   background-position: left;
 }
+.boton-port{
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-port:hover{
+  border: 1px solid black;
+  background-color: black;
+}
+.boton-cont{
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-cont:hover{
+  background-color: transparent;
+  color: black;
+}
 
 /* Acerca de mi */
 
